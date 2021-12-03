@@ -55,5 +55,10 @@ namespace Presentacion
             }
 
         }
+
+        private void CmbProyectos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

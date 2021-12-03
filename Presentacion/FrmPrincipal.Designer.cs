@@ -64,6 +64,7 @@ namespace Presentacion
             this.Controls.Add(this.BttCargar);
             this.Name = "FrmPrincipal";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.FrmPrincipal_Load);
             this.ResumeLayout(false);
 
         }

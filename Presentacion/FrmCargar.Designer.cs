@@ -52,6 +52,7 @@ namespace Presentacion
             this.CmbProyectos.Name = "CmbProyectos";
             this.CmbProyectos.Size = new System.Drawing.Size(160, 21);
             this.CmbProyectos.TabIndex = 1;
+            this.CmbProyectos.SelectedIndexChanged += new System.EventHandler(this.CmbProyectos_SelectedIndexChanged);
             // 
             // openFile
             // 
